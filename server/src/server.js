@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const http = require('http');
+const https = require('https');
 
 require('dotenv-flow').config();
 
@@ -12,7 +12,7 @@ const { loadLaunchData } = require('./models/launches.model');
 
 const PORT = process.env.PORT || 8000;
 
-const server = http.createServer(
+const server = https.createServer(
   {
     key: fs.readFileSync(path.join(__dirname, '../../key.pem')),
     cert: fs.readFileSync(path.join(__dirname, '../../cert.pem')),
