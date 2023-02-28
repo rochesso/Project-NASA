@@ -3,36 +3,23 @@ It can be a local database or MongoDB Atlas.
 
 MONGO_URL can be defined inside '/server/src/services/mongo.js' or using a '.env' file that you can create inside '/server/.env'.
 
-To install the project run the following commands from the main directory:
+To install the project run the following commands:
 
-- npm run install
-- npm run client-build
-
-To start the server:
-
-- npm run server
-
-to run the tests:
-
-- npm run test
-
-
-If the commands above do not work in your computer, you can try the following:
-
-Go inside the server folder and run:
-
-- npm install
-
-Then go to the client folder and run:
+Inside the client folder:
 
 - npm install
 
 - npm run build
 
-Now you can go back to the server folder and start the server with:
+Inside the server folder:
+
+- npm install
 
 - npm run watch
 
+to run the tests:
+
+- npm run test
 
 
 If you want to run the server using https follow the next steps:
