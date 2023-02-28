@@ -16,6 +16,25 @@ to run the tests:
 
 - npm run test
 
+
+If the commands above do not work in your computer, you can try the following:
+
+Go inside the server folder and run:
+
+- npm install
+
+Then go to the client folder and run:
+
+- npm install
+
+- npm run build
+
+Now you can go back to the server folder and start the server with:
+
+- npm run watch
+
+
+
 If you want to run the server using https follow the next steps:
 -- Creating a Self-Signed Certificate With OpenSSL --
 
