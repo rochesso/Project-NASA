@@ -1,5 +1,13 @@
 # Project Nasa
-Final project from the course "Complete NodeJS Developer in 2022 (GraphQL, MongoDB, + more)".
+Project NASA is an API-based project that interacts with external APIs to retrieve data about SpaceX missions. The project allows users to add their own missions, and all the data is stored in a MongoDB database.
+
+Through this project, I could gain hands-on experience in using APIs to access external data and integrating it with my own applications.
+
+By working on this project, I could gain a deeper understanding of the complexities involved in building applications that interact with external data sources. I also gained experience in using modern web development tools such as MongoDB, making them better equipped to tackle more complex projects in the future.
+
+Overall, Project NASA was an excellent opportunity for me to improve my skills in API integration and backend development while also gaining a deeper understanding of the space industry and space exploration.
+
+### [Credits](https://www.udemy.com/course/complete-nodejs-developer-zero-to-mastery/)
 
 ## Initial Configuration
 As this project uses the mongodb database, you need to configure the `MONGO_URL` variable using your own mongodb connection string.
@@ -39,5 +47,3 @@ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 3
 ```
 You can also add -nodes (short for "no DES") if you don't want to protect your private key with a passphrase. Otherwise it will prompt you for "at least a 4 character" password.
 
-## Credits:
-https://www.udemy.com/course/complete-nodejs-developer-zero-to-mastery/
