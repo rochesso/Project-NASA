@@ -7,6 +7,8 @@ By working on this project, I could gain a deeper understanding of the complexit
 
 Overall, Project NASA was an excellent opportunity for me to improve my skills in API integration and backend development while also gaining a deeper understanding of the space industry and space exploration.
 
+### [Certificate](https://www.udemy.com/certificate/UC-f985b435-0aff-4109-a98b-dfed9ea778fc/)
+
 ### [Credits](https://www.udemy.com/course/complete-nodejs-developer-zero-to-mastery/)
 
 ## Initial Configuration
